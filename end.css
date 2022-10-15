@@ -1,0 +1,676 @@
+*{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: #ffffff;
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    padding-right: 5vw;
+}
+
+nav a{
+    padding: 15px;
+}
+
+header{
+    width: 100%;
+    height: 155px;
+    z-index: 10000;
+    top: 0;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+	background-image: linear-gradient(#ffca95, #ebd2aa);
+    align-items: center;
+}
+
+header a{
+    font-family: 'Dokdo' , cursive;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 70%;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+header a:hover{
+    opacity: 0.8;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+div.esquerdo{
+    flex: 35%;
+    margin: 3px;
+}
+
+div.esquerdo img{
+    width: 200px;
+    height: 100px;
+    margin-left: 55px;
+}
+
+div.menu{
+    flex: 65%;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.boas_vindas{
+    margin-top: 155px;
+    width: 97%;
+    height: 39vw;
+    display: flex;
+    padding: 25px;
+}
+
+.imagem img{
+    width: 100%;
+    object-fit: fill;
+}
+
+div.mensagem{
+    flex: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mensagem h1{
+    font-family: 'Dokdo', cursive;
+    color: #8692c4;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.mensagem p{
+    font-size: 20px;
+    text-align: center;
+}
+
+section.carosel {
+    width: 95%;
+}
+
+.carousel {
+    margin: 0 auto!important;
+}
+
+.carousel h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.carousel p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.texto p{
+    width: 20vw;
+    text-align: center;
+}
+
+.textos h1{
+    font-family: 'Dokdo', cursive;   
+    color: #8692c4;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+section.textos {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+section.textos p{
+    color: rgb(0, 0, 0);
+    display: inline;
+    font-size: 20px;
+}
+
+.textos b{
+    color: #8692c4;
+
+}
+
+.texto h1{
+    color: #000000;
+    text-align: center;
+    font-size: 1.4em;
+    text-shadow: 1px 1px #000000;
+}
+
+.titulo1 b{
+    color: #8692c4;
+}
+
+.texto h2{
+    color: #000000;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.texto{
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
+}
+
+section.dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.news{
+    background-color: #fee8d4;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    margin: 20px;
+}
+
+div.news img{
+    margin: 20px;
+    transition: all .5s;
+}
+
+.news :hover{
+    border-radius: 30px 0px 30px 0px;
+    filter: grayscale(100%);
+}
+
+div.news h2{
+    font-family: 'Abyssinica SIL', serif;
+    color:#000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+div.news a{
+    text-decoration: none;
+}
+
+div.news h2:hover{
+    opacity: 0.8;
+    color: #8e605e;
+}
+
+section.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.characters{
+    background-color: #fee8d4;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    margin: 20px;
+}
+
+div.characters img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    transition: all .5s;
+}
+
+.characters :hover{
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+div.characters h2{
+    font-family: 'Abyssinica SIL', serif;
+    color:#000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+div.characters a{
+    text-decoration: none;
+}
+
+div.characters h2:hover{
+    opacity: 0.8;
+    color: #8e605e; 
+}
+
+div.movie{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    padding: 55px;
+}
+
+div.filme{
+    display: flex;
+    align-items: center;
+}
+
+div.filme img{
+    width: 270px;
+    height: 370px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.sinopse{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sinopse h1{
+    font-family: 'Dokdo', cursive;   
+    color: #8692c4;
+    font-size: 2.7em;
+    margin-top: 20px;
+}
+
+.sinopse h2{
+    color: #000000;
+    font-size: 25px;
+}
+
+.sinopse p{   
+    color: #000000;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.sinopse q{
+    font-size: 20px;
+}
+
+div.conteudo1{
+    display: flex;
+    padding: 55px;
+}
+
+div.conteudo2{
+    display: flex;
+    padding: 55px;
+}
+
+#conteudo1Top{
+    margin-top: 125px;
+}
+
+div.sobre{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sobre a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.sobre a:hover{
+    color: #8692c4;
+}
+
+.sobre h1{
+    font-family: 'Dokdo' , cursive;
+    color: #8692c4;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+.sobre h3{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sobre p{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.sobre1{
+    padding: 40px;
+}
+
+.sobre1 h1{
+    font-family: 'Dokdo' , cursive;
+    color: #8692c4;
+    text-align: center;
+    font-size: 2.9em;
+}
+
+.sobre1 p{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sobre1 b{
+    color: #8692c4;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sobre1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.sobre1 a:hover{
+    color: #8692c4;
+}
+
+div.gf1{
+    transition: all .5s;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.gf2{
+    transition: all .5s;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.gf3{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.gf3 img{
+    width: 450px;
+    height: 450px;
+}
+
+.gf1 :hover {
+    filter: grayscale(100%);
+    border-radius: 0px 25px 0px 25px;
+}
+
+.gf2 :hover{
+    filter: grayscale(100%);
+    border-radius: 0px 25px 0px 25px;
+}
+
+div.titulo h1{
+    font-family: 'Dokdo' , cursive;
+    color: #8692c4;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+section.elenco{
+    display: flex;
+    justify-content: center;
+}
+
+div.personagens{
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.personagens img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.personagens h3{
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    color: #000000;
+}
+
+.personagens h3:hover{
+    opacity: 0.8;
+    color: #5b6887;
+}
+
+.personagens a{
+    text-decoration: none;
+}
+
+div.grande{
+    width: 62vw;
+    height: 75vh;
+    display: block;
+}
+
+div.top{
+    flex: 70%;
+    display: flex;
+}
+
+div.bottom{
+    flex: 30%;
+    display: flex;
+}
+
+div.interno{
+    flex: 1;
+    margin: 0.4vw;
+    text-align: center;
+}
+
+img.img_small{
+    width: 11vw;
+    height: 12vh;
+}
+
+img.img_big{
+    width: 100%;
+    height: 100%;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+div.texto p{
+    font-size: 15px;
+    color: #000000;
+}
+
+div.texto h2{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+	background-image: linear-gradient(#ffca95 , #ebd2aa );
+    text-align: center;
+    padding: 10px;
+    border-top: 10px;
+}
+
+@media (max-width: 700px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        width: 100vw;
+        height: auto;
+    }
+
+    header a{
+        font-size:  2.9vh;
+    }
+
+    div.esquerdo img{
+        width: 200px;
+        height: 100px;
+    }
+
+    div.menu{
+        gap: 0;
+        justify-content: space-around;
+        padding-left: 5vw;
+
+    }
+
+    .menu a{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    header nav{
+        margin: 0;
+        padding: 30;
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 5vh;
+    }
+    
+    .boas_vindas{
+        margin-top: 250px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    }
+
+    .mensagem p{
+        margin-bottom: 55px;
+    }
+
+    section.textos {
+        margin-bottom: 45px;
+        margin-top: 55px;
+        padding: 25px;
+    }
+
+    .dados{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .data{
+        margin-top: 90px;
+        flex-direction: column;
+    }
+
+    div.movie{
+        margin-top: 250px;
+        flex-direction: column;
+        padding: 25px;
+    }
+    
+    
+    div.filme img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sinopse h1, .sinopse h2, .sinopse p{
+        text-align: center;
+    }
+    
+    div.conteudo1 {
+        flex-direction: column;
+        padding: 25px;
+    }
+    
+    #conteudo1Top{
+        margin-top: 300px;
+
+    }
+
+    div.conteudo2 {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .sobre h3{
+        margin-bottom: 40px;
+    }
+
+    .sobre h1{
+        margin-top: 40px;
+    }
+    
+    .sobre p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sobre1 h1{
+        margin-top: 40px;
+    }
+    
+    .sobre1 p{
+        margin-bottom: 40px;
+    }
+    
+    div.gf1 img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    div.gf2 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    div.gf3{
+        width: 100%;
+        height: 100%;
+    }
+    
+    div.titulo h1{
+        margin-top: 40px;
+    }
+    
+    div.personagens{
+        margin: 10px;
+    }
+    
+    .personagens img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .personagens h3{
+        font-size: 0.8em;
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
