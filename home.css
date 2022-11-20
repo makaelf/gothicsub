@@ -1,0 +1,233 @@
+*{
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    background-image: url("midia/background.webp");
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+    opacity: 100%;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+header a:hover{
+    opacity: 0.8;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding-right: 5px;
+}
+
+nav a{
+    padding: 10px;
+}
+
+div.left{
+    flex: 25%;
+}
+
+div.left img{
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+div.menu{
+    flex: 85%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+section.welcome{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    padding: 70px;
+}
+
+div.text{
+    flex: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text h2{
+    font-family: 'Cinzel', serif;
+    color: #fca311;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.text p{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+div.space{
+    flex: 60%;
+    display: flex;
+    
+}
+
+div.textos {
+    text-align: center;
+    margin-top: 5px;
+    padding: 25px;
+}
+
+div.textos h1{
+    font-family: 'Cinzel', serif;
+    color: #fca311;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+div.textos p{
+    text-align: center;
+    color: #ffffff;
+    display: inline;
+    font-size: 20px;
+}
+
+.textos b{
+    color: #ffffff;
+}
+
+section.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.info{
+    padding: 20px;
+    background-color: #000000;
+}
+
+div.info img{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+div.info h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+div.info p{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer{
+    width: auto;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    border-top: 10px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+@media (max-width: 600px){
+
+    body{
+        background-size: auto;
+        overflow-x: hidden;
+    }
+
+    header{
+        width: auto;
+    }
+
+    header a{
+        font-size: 2.3vh;
+    }
+
+    header, nav{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    div.left img{
+        width: 190px;
+        height: 190px;
+    }
+
+    div.menu{
+        gap: 0;
+        justify-content: space-around;
+        padding-left: 5vw;
+    }
+
+    .menu a{
+        margin: 0;
+        font-size: 15px;
+    }
+
+    section.welcome{
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    section.infos{
+        flex-direction: column;
+    }
+
+    footer{
+        margin-top: 25px;
+    }
+}
+
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Girassol', cursive;
+font-family: 'Gothic A1', sans-serif;
+font-family: 'Noticia Text', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Suravaram', serif;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Zen Maru Gothic', sans-serif; 
+font-family: 'Roboto Mono', monospace;
+*/
